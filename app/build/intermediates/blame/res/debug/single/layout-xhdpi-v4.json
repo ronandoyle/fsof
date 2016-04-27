@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/layout-xhdpi-v4/game.xml",
+        "source": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/layout-xhdpi/game.xml"
+    },
+    {
+        "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/layout-xhdpi-v4/main.xml",
+        "source": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/layout-xhdpi/main.xml"
+    }
+]

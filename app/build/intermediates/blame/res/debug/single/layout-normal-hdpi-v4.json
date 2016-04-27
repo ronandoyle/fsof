@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/layout-normal-hdpi-v4/video.xml",
+        "source": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/layout-normal-hdpi/video.xml"
+    },
+    {
+        "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/layout-normal-hdpi-v4/selection.xml",
+        "source": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/layout-normal-hdpi/selection.xml"
+    },
+    {
+        "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/layout-normal-hdpi-v4/main2.xml",
+        "source": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/layout-normal-hdpi/main2.xml"
+    },
+    {
+        "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/layout-normal-hdpi-v4/all_genre_splash.xml",
+        "source": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/layout-normal-hdpi/all_genre_splash.xml"
+    },
+    {
+        "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/layout-normal-hdpi-v4/answer.xml",
+        "source": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/layout-normal-hdpi/answer.xml"
+    },
+    {
+        "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/layout-normal-hdpi-v4/game2.xml",
+        "source": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/layout-normal-hdpi/game2.xml"
+    },
+    {
+        "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/layout-normal-hdpi-v4/splash.xml",
+        "source": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/layout-normal-hdpi/splash.xml"
+    },
+    {
+        "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/layout-normal-hdpi-v4/main.xml",
+        "source": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/layout-normal-hdpi/main.xml"
+    },
+    {
+        "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/layout-normal-hdpi-v4/game.xml",
+        "source": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/layout-normal-hdpi/game.xml"
+    },
+    {
+        "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/layout-normal-hdpi-v4/round.xml",
+        "source": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/layout-normal-hdpi/round.xml"
+    },
+    {
+        "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/layout-normal-hdpi-v4/rules.xml",
+        "source": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/layout-normal-hdpi/rules.xml"
+    }
+]

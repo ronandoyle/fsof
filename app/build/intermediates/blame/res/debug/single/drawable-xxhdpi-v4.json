@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/photo.png",
+        "source": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/drawable-xxhdpi/photo.png"
+    }
+]

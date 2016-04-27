@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background">
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_centerInParent="true"
+    	android:orientation="vertical">
+    	
+         <TextView android:id="@+id/pickagenre"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="PICK A GENRE:"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"/>
+         
+       	<LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:padding="5dp">
+         
+    		<LinearLayout 
+        	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical"
+    		android:padding="5dp"
+    		android:background="#DBB42C">
+    	
+    		    <Button android:id="@+id/button01"
+       		     android:layout_height="wrap_content"
+       	    	 android:layout_width="wrap_content"
+           		 android:text="ALL"
+           		 android:textSize="30sp"
+          	     android:textColor="#DBB42C"/>
+    		</LinearLayout>
+   		</LinearLayout>
+        
+    	<LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:padding="5dp">
+         
+    		<LinearLayout 
+        	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical"
+    		android:padding="5dp"
+    		android:background="#DBB42C">
+    	    
+    	    <Button android:id="@+id/button02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACTION"
+            android:textSize="30sp"
+            android:textColor="#DBB42C"/>
+    	    
+    	</LinearLayout>
+    	</LinearLayout>
+        
+        
+    	<LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:padding="5dp">
+         
+    		<LinearLayout 
+        	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical"
+    		android:padding="5dp"
+    		android:background="#DBB42C">
+    	    
+    	     <Button android:id="@+id/button03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COMEDY"
+            android:textSize="30sp"
+            android:textColor="#DBB42C"/>
+    	    
+    	</LinearLayout>
+    	</LinearLayout>
+        
+       
+    	<LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:padding="5dp">
+         
+    		<LinearLayout 
+        	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical"
+    		android:padding="5dp"
+    		android:background="#DBB42C">
+    	     
+    	    <Button android:id="@+id/button04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ROMANCE/ROM-COM"
+            android:textSize="30sp"
+            android:textColor="#DBB42C"/>
+    	    
+    	</LinearLayout>
+    	</LinearLayout>
+        
+        <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:padding="5dp">
+         
+    		<LinearLayout 
+        	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical"
+    		android:padding="5dp"
+    		android:background="#DBB42C">
+    	    
+            <Button android:id="@+id/button05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCI-FI"
+            android:textSize="30sp"
+            android:textColor="#DBB42C"/>
+            
+        </LinearLayout>
+        </LinearLayout>
+        
+        <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:padding="5dp">
+    		
+            <ImageView android:id="@+id/stars_footer"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:background="@drawable/stars4"/>
+    		
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
