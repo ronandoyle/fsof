@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BD3131"
+    android:gravity="center"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+
+    <Button android:id="@+id/btn_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_menu_button_background"
+        android:text="ALL"
+        android:textSize="30sp"
+        android:textColor="#DBB42C"
+        android:height="20dp"
+        android:layout_margin="5dp"/>
+
+    <Button android:id="@+id/btn_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_menu_button_background"
+        android:text="ACTION"
+        android:textSize="30sp"
+        android:textColor="#DBB42C"
+        android:layout_margin="5dp"/>
+
+    <Button android:id="@+id/btn_comedy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_menu_button_background"
+        android:text="COMEDY"
+        android:textSize="30sp"
+        android:textColor="#DBB42C"
+        android:layout_margin="5dp"/>
+
+    <Button android:id="@+id/btn_romance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_menu_button_background"
+        android:text="ROMANCE/ROM-COM"
+        android:textSize="30sp"
+        android:textColor="#DBB42C"
+        android:layout_margin="5dp"/>
+
+    <Button android:id="@+id/btn_scifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_menu_button_background"
+        android:text="SCI-FI"
+        android:textSize="30sp"
+        android:textColor="#DBB42C"
+        android:layout_margin="5dp"/>
+
+    <ImageView android:id="@+id/iv_stars_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stars4"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
