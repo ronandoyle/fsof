@@ -1,13 +1,11 @@
 package ie.nanorstudios.fsof.activities;
 
 import android.app.Activity;
+import android.app.FragmentTransaction;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.ImageView;
+import android.support.annotation.NonNull;
 
-import butterknife.BindView;
 import butterknife.ButterKnife;
-import ie.nanorstudios.fsof.GameTypeInterfance;
 import ie.nanorstudios.fsof.R;
 import ie.nanorstudios.fsof.fragments.RoundFragment;
 
@@ -16,10 +14,14 @@ import ie.nanorstudios.fsof.fragments.RoundFragment;
  */
 public class RoundActivity extends Activity {
 
+    public static final String EXTRA_ROUND_COUNTER = "ExtraRoundCounter";
+    public static final String EXTRA_LIVES = "ExtraLives";
+
     private RoundFragment mRoundFragment;
 
+    private int mRoundCounter;
     private int mGameType;
-    @BindView(R.id.iv_round_splash_view) ImageView mSplashView;
+    private int mLives;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,39 +31,25 @@ public class RoundActivity extends Activity {
         extractGameType();
     }
 
-    private void setupUI() {
-        switch (mGameType) {
-            case GameTypeInterfance.ALL:
-                displayGameTypeSlashScreen(R.drawable.all_genres);
-                break;
-            case GameTypeInterfance.ACTION:
-                // TODO: 28/04/2016 displayGameTypeSlashScreen
-                break;
-            case GameTypeInterfance.COMEDY:
-                // TODO: 28/04/2016 displayGameTypeSlashScreen
-                break;
-            case GameTypeInterfance.ROMANCE:
-                // TODO: 28/04/2016 displayGameTypeSlashScreen
-                break;
-            case GameTypeInterfance.SCIFI:
-                // TODO: 28/04/2016 displayGameTypeSlashScreen
-                break;
-            default:
-                break;
-        }
-        if (mRoundFragment != null) {
-            mRoundFragment = RoundFragment.newInstance(mGameType);
-        }
+    @Override
+    protected void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putInt(EXTRA_ROUND_COUNTER, mRoundCounter);
     }
 
-    private void displayGameTypeSlashScreen(int resourceId) {
-        mSplashView.setBackground(getDrawable(resourceId));
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+    @Override
+    protected void onRestoreInstanceState(@NonNull Bundle inState) {
+        super.onRestoreInstanceState(inState);
+        mRoundCounter = inState.getInt(EXTRA_ROUND_COUNTER);
+    }
+
+    private void addFragment() {
+        if (mRoundFragment == null) {
+            mRoundFragment = RoundFragment.newInstance(mLives, mRoundCounter, mGameType);
+
+            FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+            fragmentTransaction.add(R.id.frame_layout, mRoundFragment, RoundFragment.TAG).commit();
         }
-        mSplashView.setVisibility(View.GONE);
     }
 
     private void extractGameType() {
@@ -69,8 +57,12 @@ public class RoundActivity extends Activity {
             Bundle extras = getIntent().getExtras();
             if (extras.containsKey("GAME_TYPE")) {
                 mGameType = extras.getInt("GAME_TYPE");
-                setupUI();
+                addFragment();
             }
         }
+    }
+
+    public void checkAnswer() {
+        // TODO: 05/05/2016 increment round count or decrement life.
     }
 }

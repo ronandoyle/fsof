@@ -25,16 +25,18 @@ public final class R {
         public static final int stars4=0x7f020007;
     }
     public static final class id {
-        public static final int action_settings=0x7f090009;
+        public static final int action_settings=0x7f09000b;
         public static final int btn_action=0x7f090001;
         public static final int btn_all=0x7f090000;
         public static final int btn_comedy=0x7f090002;
         public static final int btn_romance=0x7f090003;
         public static final int btn_scifi=0x7f090004;
         public static final int frame_layout=0x7f090006;
-        public static final int iv_round_splash_view=0x7f090007;
         public static final int iv_stars_footer=0x7f090005;
-        public static final int tv_round_title=0x7f090008;
+        public static final int tv_and=0x7f090009;
+        public static final int tv_first_name=0x7f090008;
+        public static final int tv_round_title=0x7f090007;
+        public static final int tv_second_name=0x7f09000a;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
