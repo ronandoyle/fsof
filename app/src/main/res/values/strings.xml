@@ -4,5 +4,6 @@
     <string name="app_name">FSOF</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">The Fifteen Seconds Of Fame App</string>
-
+    <string name="round_title">Round %1$d:</string>
+    <string name="ellipsis">&#8230;</string>
 </resources>

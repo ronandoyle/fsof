@@ -19,7 +19,7 @@ public class RoundActivity extends Activity {
 
     private RoundFragment mRoundFragment;
 
-    private int mRoundCounter;
+    private int mRoundCounter = 1;
     private int mGameType;
     private int mLives;
 
