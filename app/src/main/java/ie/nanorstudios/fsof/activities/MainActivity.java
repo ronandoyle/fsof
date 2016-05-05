@@ -5,7 +5,10 @@ import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.Menu;
+import android.widget.Button;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import ie.nanorstudios.fsof.GameTypeInterfance;
 import ie.nanorstudios.fsof.R;
 
@@ -17,6 +20,7 @@ public class MainActivity extends Activity implements GameTypeInterfance {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
 		setupTypeface();
 	}
 
@@ -33,7 +37,7 @@ public class MainActivity extends Activity implements GameTypeInterfance {
 	}
 
     @OnClick(R.id.btn_all)
-    protected void startAllGame() {
+    public void startAllGame() {
         Intent startGameIntent = new Intent(this, RoundActivity.class);
         startGameIntent.putExtra("GAME_TYPE", GameTypeInterfance.ALL);
         startActivity(startGameIntent);

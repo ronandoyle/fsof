@@ -14,8 +14,8 @@
         android:text="ALL"
         android:textSize="30sp"
         android:textColor="#DBB42C"
-        android:height="20dp"
-        android:layout_margin="5dp"/>
+        android:layout_margin="5dp"
+        android:clickable="true"/>
 
     <Button android:id="@+id/btn_action"
         android:layout_width="match_parent"

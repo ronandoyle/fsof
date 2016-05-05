@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/stars4.png",
-        "source": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/drawable-hdpi/stars4.png"
-    },
-    {
         "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/all_genres.png",
         "source": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/drawable-hdpi/all_genres.png"
+    },
+    {
+        "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/stars4.png",
+        "source": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/drawable-hdpi/stars4.png"
     },
     {
         "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/photo.png",

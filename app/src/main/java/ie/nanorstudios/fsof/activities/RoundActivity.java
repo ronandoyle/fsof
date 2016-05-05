@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 import ie.nanorstudios.fsof.GameTypeInterfance;
 import ie.nanorstudios.fsof.R;
 import ie.nanorstudios.fsof.fragments.RoundFragment;
@@ -23,12 +24,9 @@ public class RoundActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // TODO: 28/04/2016 Create activity ui.
-
-        if (savedInstanceState != null) {
-            mGameType = savedInstanceState.getInt("GAME_TYPE");
-            setupUI();
-        }
+        setContentView(R.layout.activity_round);
+        ButterKnife.bind(this);
+        extractGameType();
     }
 
     private void setupUI() {
@@ -66,4 +64,13 @@ public class RoundActivity extends Activity {
         mSplashView.setVisibility(View.GONE);
     }
 
+    private void extractGameType() {
+        if (getIntent() != null && getIntent().getExtras() != null) {
+            Bundle extras = getIntent().getExtras();
+            if (extras.containsKey("GAME_TYPE")) {
+                mGameType = extras.getInt("GAME_TYPE");
+                setupUI();
+            }
+        }
+    }
 }
