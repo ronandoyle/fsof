@@ -1,62 +1,62 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:2:1-27:12
-	xmlns:android
-		ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:2:11-69
+ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
-		ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:3:5-35
-		INJECTED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:5:5-30
-		INJECTED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-v4:21.0.0] /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/AndroidManifest.xml:15:5-42
-MERGED from [com.jakewharton:butterknife:8.0.0] /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.0.0/AndroidManifest.xml:5:5-43
+ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:21.0.0] /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/AndroidManifest.xml:15:5-42
+MERGED from [com.jakewharton:butterknife:8.0.0] /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.0.0/AndroidManifest.xml:5:5-43
 	android:targetSdkVersion
-		ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:9:9-38
-		INJECTED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:8:9-34
-		INJECTED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:8:9-34
+		INJECTED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:11:5-25:19
-MERGED from [com.android.support:support-v4:21.0.0] /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/AndroidManifest.xml:16:5-19
+ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:11:5-25:19
+MERGED from [com.android.support:support-v4:21.0.0] /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/AndroidManifest.xml:16:5-19
 	android:label
-		ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:14:9-41
 	android:allowBackup
-		ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:12:9-35
 	android:icon
-		ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:13:9-38
+		ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:13:9-38
 	android:theme
-		ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:15:9-40
+		ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:15:9-40
 activity#ie.nanorstudios.fsof.activities.MainActivity
-ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:16:9-22:20
+ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:16:9-22:20
 	android:screenOrientation
-		ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:17:13-49
+		ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:17:13-49
 	android:name
-		ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:16:19-78
+		ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:16:19-78
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:18:13-21:29
+ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:18:13-21:29
 action#android.intent.action.MAIN
-ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:20:17-77
+ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:20:27-74
+		ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:20:27-74
 activity#ie.nanorstudios.fsof.activities.RoundActivity
-ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:23:9-24:57
+ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:23:9-24:57
 	android:screenOrientation
-		ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:24:19-55
+		ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:24:19-55
 	android:name
-		ADDED from /Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/AndroidManifest.xml:23:19-59
+		ADDED from /Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/AndroidManifest.xml:23:19-59

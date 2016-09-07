@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/values/values.xml",
+        "outputFile": "/Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/build/intermediates/res/merged/debug/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/values/dimens.xml",
+                    "file": "/Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/res/values/dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 164
                 },
                 "from": {
-                    "file": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/values/dimens.xml",
+                    "file": "/Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/res/values/dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 217
                 },
                 "from": {
-                    "file": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/values/strings.xml",
+                    "file": "/Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 259
                 },
                 "from": {
-                    "file": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/values/strings.xml",
+                    "file": "/Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -83,11 +83,30 @@
                     "startLine": 6,
                     "startColumn": 4,
                     "startOffset": 264,
-                    "endColumn": 71,
-                    "endOffset": 331
+                    "endColumn": 38,
+                    "endOffset": 298
                 },
                 "from": {
-                    "file": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/values/strings.xml",
+                    "file": "/Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 275,
+                        "endColumn": 44,
+                        "endOffset": 315
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 303,
+                    "endColumn": 71,
+                    "endOffset": 370
+                },
+                "from": {
+                    "file": "/Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -99,15 +118,34 @@
             },
             {
                 "to": {
-                    "startLine": 7,
+                    "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 336,
-                    "endLine": 13,
-                    "endColumn": 12,
-                    "endOffset": 622
+                    "startOffset": 375,
+                    "endColumn": 51,
+                    "endOffset": 422
                 },
                 "from": {
-                    "file": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/values/styles.xml",
+                    "file": "/Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 223,
+                        "endColumn": 51,
+                        "endOffset": 270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 427,
+                    "endLine": 15,
+                    "endColumn": 12,
+                    "endOffset": 713
+                },
+                "from": {
+                    "file": "/Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/res/values/styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -120,15 +158,15 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 627,
-                    "endLine": 16,
+                    "startOffset": 718,
+                    "endLine": 18,
                     "endColumn": 12,
-                    "endOffset": 782
+                    "endOffset": 873
                 },
                 "from": {
-                    "file": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/values/styles.xml",
+                    "file": "/Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/res/values/styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,

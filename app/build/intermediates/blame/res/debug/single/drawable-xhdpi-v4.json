@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
-        "source": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+        "merged": "/Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/res/drawable-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/photo.png",
-        "source": "/Users/Ronan/AndroidStudioProjects/FifteenSecondsOfFame/app/src/main/res/drawable-xhdpi/photo.png"
+        "merged": "/Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/photo.png",
+        "source": "/Users/ronand/Documents/Development/MyProjects/Personal/fsof/app/src/main/res/drawable-xhdpi/photo.png"
     }
 ]

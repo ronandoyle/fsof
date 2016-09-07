@@ -6,11 +6,11 @@
     android:layout_height="match_parent"
     android:background="#BD3131"
     android:gravity="center_horizontal"
-    android:paddingTop="50dp"
+    android:paddingEnd="20dp"
     android:paddingLeft="20dp"
-    android:paddingStart="20dp"
     android:paddingRight="20dp"
-    android:paddingEnd="20dp">
+    android:paddingStart="20dp"
+    android:paddingTop="50dp">
 
     <TextView
         android:id="@+id/tv_round_title"
@@ -18,47 +18,60 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textAllCaps="true"
-        android:textSize="40sp"
         android:textColor="@android:color/white"
+        android:textSize="40sp"
         tools:text="round one:"/>
 
     <TextView
         android:id="@+id/tv_first_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/tv_round_title"
+        android:layout_centerInParent="true"
         android:layout_marginTop="50dp"
         android:background="@drawable/shape_menu_button_background"
-        android:layout_centerInParent="true"
         android:gravity="center"
-        android:textSize="26sp"
         android:padding="10dp"
-        android:layout_below="@id/tv_round_title"
+        android:textSize="26sp"
         tools:text="Robert Downey Jr"/>
 
     <TextView
         android:id="@+id/tv_and"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_below="@id/tv_first_name"
         android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
         android:textAllCaps="true"
+        android:textColor="#E0C04B"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:textColor="#E0C04B"
-        android:layout_below="@id/tv_first_name"
         tools:text="And"/>
 
     <TextView
         android:id="@+id/tv_second_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/tv_and"
+        android:layout_centerInParent="true"
         android:layout_marginTop="20dp"
         android:background="@drawable/shape_menu_button_background"
-        android:layout_centerInParent="true"
         android:gravity="center"
-        android:textSize="26sp"
         android:padding="10dp"
-        android:layout_below="@id/tv_and"
+        android:textSize="26sp"
         tools:text="Mark Ruffalo"/>
+
+    <TextView
+        android:id="@+id/tv_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_second_name"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:textAllCaps="true"
+        android:textColor="#E0C04B"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:text="3"/>
 
 </RelativeLayout>
